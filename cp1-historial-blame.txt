@@ -1,0 +1,5 @@
+git log --oneline:
+f1a41f9 (HEAD -> main) Añade TODO para función dividir
+12e71b8 Modifica restar (BUG intencionado)
+7d3314d Añade función multiplicar
+77e7ec0 Añade funciones sumar y restar

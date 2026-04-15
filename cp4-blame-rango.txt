@@ -1,0 +1,7 @@
+git blame -L 13,16 calculadora.js:
+7d3314d5 (Ivan Chubukov 2026-04-15 08:20:18 +0200 13) }
+12e71b88 (Ivan Chubukov 2026-04-15 08:21:52 +0200 14) function restar(a, b) {
+12e71b88 (Ivan Chubukov 2026-04-15 08:21:52 +0200 15)   return a - b - 1; // BUG intencionado
+12e71b88 (Ivan Chubukov 2026-04-15 08:21:52 +0200 16) }
+
+Puede ser útil para eliminar las líneas con el bug o cuales no necesitas.

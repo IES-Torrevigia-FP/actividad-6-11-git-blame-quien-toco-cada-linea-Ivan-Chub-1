@@ -1,0 +1,23 @@
+git blame:
+12e71b88 (Ivan Chubukov 2026-04-15 08:21:52 +0200 15)   return a - b - 1; // BUG intencionado
+
+git show 12e71b88:
+commit 12e71b88cdb6a49d6a0b1db9843c59af4580e757
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Wed Apr 15 08:21:52 2026 +0200
+
+    Modifica restar (BUG intencionado)
+
+diff --git a/calculadora.js b/calculadora.js
+index a66088e..97a9c19 100644
+--- a/calculadora.js
++++ b/calculadora.js
+@@ -11,3 +11,6 @@ function restar(a, b) {
+ function multiplicar(a, b) {
+   return a * b;
+ }
++function restar(a, b) {
++  return a - b - 1; // BUG intencionado
++}
+
+Aprendí que para encontrar in bug hay que ver en la línea después de introducir el comando git blame.
